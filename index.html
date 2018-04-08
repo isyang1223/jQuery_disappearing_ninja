@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Disappearing Kobe</title>
+        <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        <script>
+            $(document).ready(function(){
+                $('img').click(function(){
+                    $(this).hide();
+                });
+                $("#restorebutton").click(function(){
+                    $("img").show();
+                })
+            });
+          
+        </script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+            <img src="img1.jpeg" id="image1" class = "kobe" alt="kobe1">
+            <img src="img2.jpeg" id="image2" class = "kobe" alt="kobe2">
+            <img src="img3.jpeg" id="image3" class = "kobe" alt="kobe3">
+            <img src="img4.jpeg" id="image4" class = "kobe" alt="kobe4">
+            <img src="img5.jpeg" id="image5" class = "kobe" alt="kobe5">
+            <img src="img6.jpeg" id="image6" class = "kobe" alt="kobe6">
+            <img src="img7.jpeg" id="image7" class = "kobe" alt="kobe7">
+            <img src="img8.jpeg" id="image8" class = "kobe" alt="kobe8">
+
+            <button id ="restorebutton">Restore Kobe!</button>
+            
+    </body>
+</html>

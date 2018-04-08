@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.kobe{
+    width: 200px;
+    height: 100px;
+}
+#restorebutton{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+}
